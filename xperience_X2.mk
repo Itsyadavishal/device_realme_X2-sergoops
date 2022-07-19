@@ -6,11 +6,13 @@
 
 $(call inherit-product, device/realme/X2/device.mk)
 
-# Inherit from the Flamingo configuration.
-$(call inherit-product, vendor/flamingo/target/product/flamingo.mk)
+# Inherit from the xperience configuration.
+$(call inherit-product, vendor/xperience/config/common.mk)
+
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := flamingo_X2
+PRODUCT_NAME := xperience_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2

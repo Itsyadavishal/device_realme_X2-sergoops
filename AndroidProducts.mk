@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/flamingo_X2.mk
+   $(LOCAL_DIR)/xperience_X2.mk
