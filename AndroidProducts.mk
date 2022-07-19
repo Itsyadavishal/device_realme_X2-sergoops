@@ -16,3 +16,9 @@
 
 PRODUCT_MAKEFILES := \
    $(LOCAL_DIR)/xperience_X2.mk
+
+
+COMMON_LUNCH_CHOICES := \
+   xperience_X2-eng \
+   xperience_X2-user \
+   xperience_X2-userdebug
