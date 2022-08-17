@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/xperience_X2.mk
+   $(LOCAL_DIR)/conquer_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-   xperience_X2-eng \
-   xperience_X2-user \
-   xperience_X2-userdebug
+   conquer_X2-eng \
+   conquer_X2-user \
+   conquer_X2-userdebug
